@@ -1,0 +1,49 @@
+.input-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.input-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.input-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.input-description {
+  font-size: 1em;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type='submit'] {
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+input[type='submit']:hover {
+  background-color: #004a99;
+}
